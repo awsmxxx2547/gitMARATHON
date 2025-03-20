@@ -1,0 +1,11 @@
+name: Hello GitHub Actions
+
+on: [push]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Commit greeting
+        run: echo "Hello, Github Actions!"
